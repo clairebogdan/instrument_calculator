@@ -63,3 +63,86 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add -A
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/console06/FF8EC760.env[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/prop/E2E62C4F[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277-contents[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   instrument_calculator.R[m
+	[32mnew file:   instrument_calculator.Rproj[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ gi5[Kt commir[Kr[Kt
+hint: Waiting for your editor to close the file... [?2004h[K[master c526935] first commit
+ 12 files changed, 154 insertions(+)
+ create mode 100644 .Rproj.user/F3E1D2C2/console06/FF8EC760
+ create mode 100644 .Rproj.user/F3E1D2C2/console06/FF8EC760.env
+ create mode 100644 .Rproj.user/F3E1D2C2/console06/INDEX001
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/prop/E2E62C4F
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/prop/INDEX
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277-contents
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 instrument_calculator.R
+ create mode 100644 instrument_calculator.Rproj
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git o[Kco[K[K[K[K[K[Kgit commit
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/INDEX001[m
+	[31mdeleted:    .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277[m
+
+no changes added to commit
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git push
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 4.16 KiB | 1.38 MiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0)
+To https://github.com/clairebogdan/instrument_calculator.git
+   aea37be..c526935  master -> master
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ [KClaires-MacBook-Pro:instrument_calculator clairebogdan$ git ata[K[K[Kstatus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/sources/prop/E2E62C4F[m
+	[31mdeleted:    .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277[m
+	[31mmodified:   instrument_calculator.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3[m
+	[31m.Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3-contents[m
+	[31m.Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0[m
+	[31m.Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0-contents[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add -A
