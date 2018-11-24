@@ -1,0 +1,65 @@
+]0;~/Documents/RIP_teaching/instrument_calculator[?1034hClaires-MacBook-Pro:instrument_calculator clairebogdan$ [KClaires-MacBook-Pro:instrument_calculator clairebogdan$ git --version
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git --version
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git =[K--version
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git --version
+git version 2.17.2 (Apple Git-113)
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ echo "# instrum ent_calculator" >> README.md
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git init
+Initialized empty Git repository in /Users/clairebogdan/Documents/RIP_teaching/instrument_calculator/.git/
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add README. md
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git commit -m " first commit"
+[master (root-commit) dc4cd6e] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git remote add  origin https://github.com/clairebogdan/instrument_calculator.git
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git push -u ori gin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': clairebogdan
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://clairebogdan@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/clairebogdan/instrument_calculator.git/'
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ 279[K[K[Kecho "# instrum ent_calculator" >> README.md
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git init
+Reinitialized existing Git repository in /Users/clairebogdan/Documents/RIP_teaching/instrument_calculator/.git/
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add README. md
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git commit -m " first commit"
+[master aea37be] first commit
+ 1 file changed, 1 insertion(+)
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git remote add  origin https://github.com/clairebogdan/instrument_calculator.git
+fatal: remote origin already exists.
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git push -u ori gin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': clairem bogdan
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://clairebogdan@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 469 bytes | 469.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/clairebogdan/instrument_calculator/pull/new/master[K
+remote: 
+To https://github.com/clairebogdan/instrument_calculator.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31minstrument_calculator.R[m
+	[31minstrument_calculator.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add -A

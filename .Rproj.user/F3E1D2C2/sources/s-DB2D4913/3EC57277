@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543091603055.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2329603502",
+    "id" : "3EC57277",
+    "lastKnownWriteTime" : 1543091711,
+    "last_content_update" : 1543091711131,
+    "path" : "~/Documents/RIP_teaching/instrument_calculator/instrument_calculator.R",
+    "project_path" : "instrument_calculator.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
