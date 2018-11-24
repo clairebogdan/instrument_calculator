@@ -1,0 +1,12 @@
+name: instrument_calculator
+title: instrument_calculator
+username:
+account: clairebogdan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 588095
+bundleId: 1718444
+url: https://clairebogdan.shinyapps.io/instrument_calculator/
+when: 1543097015.65281
+asMultiple: FALSE
+asStatic: FALSE
