@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3391908349",
+    "hash" : "847820689",
     "id" : "1AAD71BE",
-    "lastKnownWriteTime" : 1543096688,
-    "last_content_update" : 1543096688012,
+    "lastKnownWriteTime" : 1543097479,
+    "last_content_update" : 1543097479731,
     "path" : "~/Documents/RIP_teaching/instrument_calculator/instrument_calculator/app.R",
     "project_path" : "instrument_calculator/app.R",
     "properties" : {
-        "cursorPosition" : "73,73",
-        "scrollLine" : "59"
+        "cursorPosition" : "41,22",
+        "scrollLine" : "34"
     },
     "relative_order" : 3,
     "source_on_save" : false,

@@ -38,15 +38,15 @@ server <- function(input, output) {
    output$text <- renderUI({
      # Step 1: Define proportions
      p_trumpet = 0.14
-     p_horn = 0.08
-     p_trombone = 0.1
+     p_horn = 0.07
+     p_trombone = 0.11
      p_euphonium = 0.04
      p_tuba = 0.05
      p_percussion = 0.09
      p_flute = 0.1
-     p_oboe = .02
-     p_bassoon = .02
-     p_clarinet = .26
+     p_oboe = .025
+     p_bassoon = .025
+     p_clarinet = .25
      p_bclar = .02
      p_alto = .06
      p_tenor = .01
