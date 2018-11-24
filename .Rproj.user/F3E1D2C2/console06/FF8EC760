@@ -146,3 +146,58 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git add -A
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ sit status
+bash: sit: command not found
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ sit status[1P[1@g
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+	[32mmodified:   .Rproj.user/F3E1D2C2/sources/prop/E2E62C4F[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3-contents[m
+	[32mrenamed:    .Rproj.user/F3E1D2C2/sources/s-DB2D4913/3EC57277 -> .Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0[m
+	[32mnew file:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0-contents[m
+	[32mmodified:   instrument_calculator.R[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git commit -m " 2nd commit"
+[master e346b2d] 2nd commit
+ 7 files changed, 158 insertions(+), 10 deletions(-)
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/8B5DD2B3-contents
+ rename .Rproj.user/F3E1D2C2/sources/s-DB2D4913/{3EC57277 => C4EBD6C0} (60%)
+ create mode 100644 .Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0-contents
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ git push
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 3.63 KiB | 3.63 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0)
+To https://github.com/clairebogdan/instrument_calculator.git
+   c526935..e346b2d  master -> master
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ [KClaires-MacBook-Pro:instrument_calculator clairebogdan$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/FF8EC760[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/sources/prop/E2E62C4F[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0[m
+	[31mmodified:   .Rproj.user/F3E1D2C2/sources/s-DB2D4913/C4EBD6C0-contents[m
+	[31mmodified:   instrument_calculator.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/RIP_teaching/instrument_calculatorClaires-MacBook-Pro:instrument_calculator clairebogdan$ gi [Kt add -![KA
